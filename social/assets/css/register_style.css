@@ -1,0 +1,152 @@
+@font-face
+{
+    font-family: 'Bellota-LightItalic';
+    src: url('../fonts/Bellota-LightItalic.otf');
+}
+@font-face
+{
+    font-family: 'Bellota-BoldItalic';
+    src: url('../fonts/Bellota-BoldItalic.otf');
+}
+.top_bar
+{    top:0px;
+    width: 100%;
+    min-width: 1050px; /* MIND-WIDTH STOPS THE DECREASING OF THE PAGE AT A CERTAIN POINT(1050PX HERE) WHEN THE BROWSER IS REDUCED   */
+    height: 42px;
+    /* background-color: blueviolet; */
+    background-color:#003366;
+    border-bottom: 5px solid skyblue;    
+    margin: 0 0 5px 0;
+    display: inline-flex;
+    position: fixed;
+    z-index: 10;
+}
+.logo a
+{   top:8px;
+    font-family: 'Bellota-BoldItalic',sans-serif;
+    font-size: 190%;
+    color: springgreen;
+    position: relative;
+    left: 40px;
+    letter-spacing: 1.5px;
+    text-shadow: darkblue 0.5px 0.5px 0px;
+    
+}
+ .logo a:hover
+{
+   text-decoration:none;  
+}
+/* html,body
+{
+/*   height: 100%;*/
+/*    min-height: 100%;*/
+
+form
+{
+    text-align: center;
+}
+a
+{
+    text-decoration: none;
+    color: dimgrey;
+}
+a:hover{ color: deepskyblue;}
+.wrapper
+{
+    background-image: url("../images/backgrounds/reg_back2.jpg "); /*  ../ means to go up or back one folder */
+    background-size: 100%;
+    width: 100%;left: 0px;
+    height: 100%;
+    min-width: 950px;
+}
+
+.detail
+{  
+    background-image: url("../images/backgrounds/n13.png "); 
+    font-family: 'Bellota-LightItalic', sans-serif;
+    margin-right:40px;
+    float: left;
+    color:white;
+    width: 40%;
+    font-size: 30px;
+    margin-left: 5px;
+    height: 100%;
+    text-shadow: #000 4px 4px 4px;
+    padding: 10px;
+    border-radius: 5%;
+    font-weight:700;
+     
+}
+.detail b{
+    font-family:  sans-serif;
+    font-size: 80px; font-weight:500; text-shadow: #000 4px 4px 4px;color:dimgray;
+}
+.login_box
+{   font-family: 'Bellota-LightItalic', sans-serif;
+    margin-right:40px;
+    float: right;
+    width: 35%;
+    margin-top: 8%;
+    background-color:#003366;
+    border: 1.5px solid grey;
+    padding: 10px;
+    border-radius: 2%;
+    opacity: 0.95;
+     
+}
+
+.login_header
+{    width: 100%;
+    font-family: 'Bellota-LightItalic', sans-serif;
+/*    margin-left: 5%;*/
+/*    margin-right: 5%;*/
+    height: 90px;
+    margin-bottom: 10px;
+    text-shadow: #000 0.5px 0.5px 0px;
+    background-color: #0069ffb0;
+      border-radius: 2%;
+    text-align: center;
+    font-size: 110%;
+    color: white;
+}
+
+.login_header h1
+{   font-family: 'Bellota-BoldItalic', sans-serif;
+    margin-top: 0px;
+    font-size: 200%;
+    padding-top: 8px;
+    color: lightskyblue;
+    text-shadow: #000 1.2px 1.2px 0px;
+    margin-bottom: 0px;
+   
+}
+
+input[type="submit"]
+{   font-family: 'Bellota-LightItalic', sans-serif;
+    border: 1px solid floralwhite;
+    margin: 0px 0px 10px 0px;
+    padding: 5px 10px 5px 10px;
+    color: antiquewhite;
+    background-color: #0069ffb0;
+    text-shadow: #000 1.2px 1.2px 0px;
+    border-radius: 4px;
+    font-size: 100%;
+}
+input[type="text"],input[type="email"],input[type="password"]
+{
+    border: 1px solid lightgrey;
+    margin: 5px 0px 10px 0px;
+    height: 5%;
+    width: 70%;
+    padding-left: 5px;
+    border-radius: 4px;
+}
+input[type="text"]:hover,input[type="email"]:hover,input[type="password"]:hover
+{
+    border-color: deepskyblue;
+    border-width: 2.5px; 
+}
+#second
+{
+    display: none;
+}
